@@ -90,49 +90,165 @@ dva 首先是一个基于 [redux](https://github.com/reduxjs/redux) 和 [redux-s
 
 - **《Head First HTML 与 CSS 第 2 版》**
 
-  ![图片无法显示](https://img1.doubanio.com/view/subject/s/public/s28988547.jpg)
+  <img src="../../assets/images/books/js_html.jpg" width="200" height="auto" />
 
-  > PDF 文档下载链接：**http://www.java1234.com/a/javabook/webbase/2016/0725/6452.html**
+  > PDF 文档下载链接：**[http://www.java1234.com/a/javabook/webbase/2016/0725/6452.html](http://www.java1234.com/a/javabook/webbase/2016/0725/6452.html)**
 
 - **[图灵程序设计丛书].《响应式 Web 设计：HTML5 和 CSS3 实战》第 2 版**
 
-  ![图片无法显示](https://img3.doubanio.com/view/subject/s/public/s29295711.jpg)
+  <img src="../../assets/images/books/html_webdesign.jpg" width="200" height="auto" />
 
-  > PDF 文档下载链接： **http://pan.baidu.com/s/1cByAT4 密码：c6ox**
+  > PDF 文档下载链接： **[http://pan.baidu.com/s/1cByAT4](http://pan.baidu.com/s/1cByAT4) &nbsp;&nbsp; 密码：c6ox**
 
-- **《CSS 权威指南》**第四版
+- **《CSS 权威指南》** 第四版
 
-![图片无法显示](https://img3.doubanio.com/view/subject/s/public/s32282742.jpg)
+<img src="../../assets/images/books/css_quanwei.jpg" width="200" height="auto" />
 
-> PDF 文档下载链接：**https://pan.baidu.com/s/1idTAxUyIIYkDjOiq8J0PsQ**
+> PDF 文档下载链接：**[https://pan.baidu.com/s/1idTAxUyIIYkDjOiq8J0PsQ](https://pan.baidu.com/s/1idTAxUyIIYkDjOiq8J0PsQ)** &nbsp;&nbsp;
 > 提取码：**6mzf**
 
 - **《HTML5 与 CSS3 权威指南》**
 
-  ![图片无法显示](https://img1.doubanio.com/view/subject/s/public/s4696737.jpg)
+<img src="../../assets/images/books/css_zhinan.jpg" width="200" height="auto" />
 
-> PDF 文档下载链接: **https://pan.baidu.com/s/16ou7W0ic0hiz8T-OjQA9mw**
+> PDF 文档下载链接: **[https://pan.baidu.com/s/16ou7W0ic0hiz8T-OjQA9mw](https://pan.baidu.com/s/16ou7W0ic0hiz8T-OjQA9mw)**
 >
 > 提取码: **fpej**
 
 - 《图解 CSS》
 
-  ![图片无法显示](https://img9.doubanio.com/view/subject/s/public/s27319226.jpg)
+<img src="../../assets/images/books/css_tujie.jpg" width="200" height="auto" />
 
-  > PDF 文档下载链接：**https://pan.baidu.com/s/1jGUpKb0**
+> PDF 文档下载链接：**[https://pan.baidu.com/s/1jGUpKb0](https://pan.baidu.com/s/1jGUpKb0)**
 
 ## 前端框架 Vue 与 React 深入学习书籍
 
 - **《Vue.js 权威指南》**
 
-  ![图片无法显示](https://img1.doubanio.com/view/subject/s/public/s29029037.jpg)
+<img src="../../assets/images/books/vue_zhinan.jpg" width="200" height="auto" />
 
-  > PDF 文档下载链接: **https://pan.baidu.com/s/1iYnj8SwdKmDHaWgouVWivA**
-  > 密码：**nnao**
+> PDF 文档下载链接: **[https://pan.baidu.com/s/1iYnj8SwdKmDHaWgouVWivA](https://pan.baidu.com/s/1iYnj8SwdKmDHaWgouVWivA)**
+> 密码：**nnao**
+
+- **《Vue.js 实战》**
+
+<img src="../../assets/images/books/vue_shizhan.jpg" width="200" height="auto" />
+
+> PDF 文档下载：
+>
+> **链接：[https://www.jb51.net/books/612751.html](https://www.jb51.net/books/612751.html)**
+
+- **《React 全栈》** React 全栈：Redux+Flux+webpack+Babel 整合开发
+
+<img src="../../assets/images/books/react_quanzhan.jpg" width="200" height="auto" />
+
+> **链接：[https://pan.baidu.com/s/1IjiWcsktJzp94P0Eo7OHoA](https://pan.baidu.com/s/1IjiWcsktJzp94P0Eo7OHoA)** &nbsp;&nbsp; **提取码：wsss**
+
+- **《深入 React 技术栈》**
+
+<img src="../../assets/images/books/react_shenru.jpg" width="200" height="auto" />
+
+> PDF 文档下载：
+>
+> **链接：[https://pan.baidu.com/s/1541DmSWVVrq68iCiifv0mQ](https://pan.baidu.com/s/1541DmSWVVrq68iCiifv0mQ)** &nbsp;&nbsp; **提取码：i6do**
 
 ## 后端与数据库学习
 
+- **《Node.js 权威指南》**
+
+<img src="../../assets/images/books/node_quanwei.jpg" width="200" height="auto" />
+
+> **链接: [https://pan.baidu.com/s/1OWRyGWupgW2gkD1BghdxLw](https://pan.baidu.com/s/1OWRyGWupgW2gkD1BghdxLw)**
+>
+> **提取码: 64iz**
+
+- **《深入浅出 Node.js》**
+
+<img src="../../assets/images/books/node_shenru.jpg" width="200" height="auto" />
+
+> PDF 文档下载：
+>
+> **链接: [https://pan.baidu.com/s/1QdA8hfTl_th0OYHX3_CbWg](https://pan.baidu.com/s/1QdA8hfTl_th0OYHX3_CbWg)**
+>
+> **提取码: m5sj**
+
+- **《了不起的 Node.js》**
+
+<img src="../../assets/images/books/node_liaobuqi.jpg" width="200" height="auto" />
+
+> PDF 文档下载：
+>
+> **链接：[https://pan.baidu.com/s/1eRTb6gy](https://pan.baidu.com/s/1eRTb6gy)**
+
+- **《Node.js 实战》**
+
+<img src="../../assets/images/books/node_shizhan.jpg" width="200" height="auto" />
+
+> PDF 文档下载：
+>
+> **链接: [https://pan.baidu.com/s/1LeTIugTp8MTWufdJzckxZw](https://pan.baidu.com/s/1LeTIugTp8MTWufdJzckxZw)**
+>
+> **提取码: ab7t**
+
+- 《MongoDB 权威指南》第二版
+
+<img src="../../assets/images/books/database_zhinan.jpg" width="200" height="auto" />
+
+> PDF 文档下载
+>
+> **链接：[http://www.downcc.com/soft/301857.html](http://www.downcc.com/soft/301857.html)**
+
+- 《MongoDB 实战》
+
+<img src="../../assets/images/books/http_tujie.jpg" width="200" height="auto" />
+
+> PDF 文档下载：
+>
+> **链接：[https://www.jb51.net/books/610176.html](https://www.jb51.net/books/610176.html)**
+>
+> **或者：[https://6so.so/t/407599/](https://6so.so/t/407599/)**
+
 ## 网络与性能优化相关书籍
+
+- 《图解 HTTP》
+
+<img src="../../assets/images/books/http_tujie.jpg" width="200" height="auto" />
+
+> PDF 文档下载
+>
+> **链接: [https://pan.baidu.com/s/16HN0W_7g4HNKIILuXOx7fg](https://pan.baidu.com/s/16HN0W_7g4HNKIILuXOx7fg)**
+>
+> **提取码: km23**
+
+- **《HTTP 权威指南》**
+
+<img src="../../assets/images/books/http-zhinan.jpg" width="200" height="auto" />
+
+> PDF 文档下载：
+>
+> **链接: [https://pan.baidu.com/s/1hXn5Pbyr2cetH8F0rrVjuw](https://pan.baidu.com/s/1hXn5Pbyr2cetH8F0rrVjuw)**
+>
+> **提取码: khap**
+
+- 《高性能网站建设进阶指南》前端工程师精髓
+
+<img src="../../assets/images/books/web_zhinan.jpg" width="200" height="auto" />
+
+> PDF 文档下载：
+>
+> **链接: [https://pan.baidu.com/s/1IEsG5Ip_JDODyTSDm81W7w](https://pan.baidu.com/s/1IEsG5Ip_JDODyTSDm81W7w)**
+>
+> **提取码: nadd**
+
+- **《Web 性能权威指南》**
+
+<img src="../../assets/images/books/web_xingneng.jpg" width="200" height="auto" />
+
+> PDF 文档下载
+>
+> **链接: [https://pan.baidu.com/s/1o2hOTqQVIz5IqaU3YlCdjA](https://pan.baidu.com/s/1o2hOTqQVIz5IqaU3YlCdjA)**
+>
+> **提取码: nbva**
 
 ## 前端工程化所需要读的书籍
 
