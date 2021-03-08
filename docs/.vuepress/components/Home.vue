@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!-- <div>header</div> -->
     <div class="home-content">
       <div class="home-content-item" v-for="item in mock" :key="item.title">
         <router-link :to="item.path" class="item-title">
@@ -83,6 +82,36 @@ export default {
 }
 </style>
 <style>
+#main-title {
+  color: #3eaf7c;
+  font-weight: 550;
+}
+
+.navbar,
+.site-name {
+  color: #3eaf7c !important;
+}
+
+.home .hero .description {
+  color: #3eaf7c;
+  font-weight: normal;
+}
+
+.home .hero .action-button {
+  background-color: #3eaf7c;
+  border-color: #3eaf7c;
+}
+
+.nav-links a:hover,
+.nav-links a.router-link-active {
+  color: #3eaf7c;
+}
+
+.nav-item > a:not(.external):hover,
+.nav-item > a:not(.external).router-link-active {
+  border-bottom: 2px solid #3eaf7c;
+}
+
 /*修改滚动条样式 S*/
 ::-webkit-scrollbar {
   width: 9px;

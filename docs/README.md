@@ -2,7 +2,7 @@
 home: true
 layout: 'Home.vue'
 heroImage: null
-heroText: FrontEnd项目文档库
+heroText: MokeyCode Sharing Website
 tagline: 规范/通俗/共用/踩坑
 actionText: 进入阅读 →
 actionLink: /pages/books/
