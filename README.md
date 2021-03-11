@@ -1,4 +1,4 @@
-# dva
+# Material Depot 资料库以及知识分享站点
 
 [![codecov](https://codecov.io/gh/dvajs/dva/branch/master/graph/badge.svg)](https://codecov.io/gh/dvajs/dva)
 [![CircleCI](https://circleci.com/gh/dvajs/dva.svg?style=svg)](https://circleci.com/gh/dvajs/dva)
@@ -9,7 +9,7 @@
 [![Dependencies](https://david-dm.org/dvajs/dva/status.svg)](https://david-dm.org/dvajs/dva)
 [![Join the chat at https://gitter.im/dvajs/Lobby](https://img.shields.io/gitter/room/dvajs/Lobby.svg?style=flat)](https://gitter.im/dvajs/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-基于 [redux](https://github.com/reactjs/redux)、[redux-saga](https://github.com/redux-saga/redux-saga) 和 [react-router](https://github.com/ReactTraining/react-router) 的轻量级前端框架。(Inspired by [elm](http://elm-lang.org/) and [choo](https://github.com/yoshuawuyts/choo))
+基于书籍分享、电影分享以及各种相关知识的学习总结经验分享以及资料共享。
 
 ---
 
