@@ -39,7 +39,7 @@ module.exports = {
         {
           title: '经典书籍',
           collapsable: false,
-          children: ['', 'getting-started'],
+          children: ['', 'backend', 'other', 'movie'],
         },
       ],
     },

@@ -4,7 +4,9 @@ sidebarDeep: 2
 
 # 前端书籍
 
-dva 首先是一个基于 [redux](https://github.com/reduxjs/redux) 和 [redux-saga](https://github.com/redux-saga/redux-saga) 的数据流方案，然后为了简化开发体验，dva 还额外内置了 [react-router](https://github.com/ReactTraining/react-router) 和 [fetch](https://github.com/github/fetch)，所以也可以理解为一个轻量级的应用框架。
+:::tip why
+本章主要从技术层面介绍我们作为开发者耳熟能详的经典书籍，其中就包括了前端、后端领域的全方位技术栈的书籍，能不能看得完是时间维度上的问题，但是有没有计划去看我倒觉得是个人态度上的问题，生命不息，阅读不止。只有提升我们的核心竞争力才能再当下这竞争激烈的鱼塘里茁壮成长，当然了，除了技术圈层的知识作为我们的“饲料”是远远不够的，因此我们还需要去摄取其他方面的知识，例如金融圈、个人提升、文学爱好方面的知识。
+:::
 
 ## JavaScript 的必看的经典书籍
 
