@@ -1,5 +1,7 @@
 # 其他圈层的书籍
 
+  <img src="../../assets/images/books/books.jpg" width="100%" height="auto" />
+
 ## 个人成长
 
 - 《非暴力沟通》
@@ -34,7 +36,6 @@
 
 <!-- <img src="../../assets/images/books/jinrong_qiongbabayufubaba.png" width="200" height="auto" /> -->
 
-
 - 《价值》
 
 - 《穷查理宝典》
@@ -47,9 +48,7 @@
 
 - 《巴菲特致股东的信》
 
-
-- 《聪明的投资者》
-
+* 《聪明的投资者》
 
 - 《证券分析》
 
