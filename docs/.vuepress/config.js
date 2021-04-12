@@ -8,8 +8,7 @@
  */
 module.exports = {
   title: '资料库',
-  description:
-    '这是一个关于书籍的资料库， 前后端以及各种领域文学的知识、资料分享库',
+  description: '这是一个关于书籍的资料库， 前后端以及各种领域文学的知识、资料分享库',
   base: '/',
   head: [['link', { rel: 'icon', href: '../assets/images/book-pro.png' }]],
   plugins: ['@vuepress/blog', '@vuepress/back-to-top'],
@@ -40,6 +39,13 @@ module.exports = {
           title: '经典书籍',
           collapsable: false,
           children: ['', 'backend', 'other', 'movie'],
+        },
+      ],
+      '/pages/techolo/': [
+        {
+          title: '技术分享以及笔记',
+          collapsable: false,
+          children: [''],
         },
       ],
     },
