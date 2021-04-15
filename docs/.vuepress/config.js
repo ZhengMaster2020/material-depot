@@ -48,6 +48,13 @@ module.exports = {
           children: [''],
         },
       ],
+      '/pages/tematerial/': [
+        {
+          title: '前端面试知识点',
+          collapsable: false,
+          children: ['', 'network'],
+        },
+      ],
     },
   },
 }
