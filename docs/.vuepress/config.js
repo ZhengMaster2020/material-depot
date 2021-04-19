@@ -45,7 +45,7 @@ module.exports = {
         {
           title: '技术分享以及笔记',
           collapsable: false,
-          children: [''],
+          children: ['', 'network', 'htmlcss', 'js', 'engineering', 'frame'],
         },
       ],
       '/pages/tematerial/': [
