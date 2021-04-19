@@ -138,7 +138,7 @@ ReactRedux 是在 Redux 的基础上进行了一层更加便利 React 调用 Red
 
 + 在`Counter`目录下的`index.js`实现相应的组件逻辑，实现一个简单的加减乘除计算器
 
-  ```react
+  ```jsx
   // App.js
   import Counter from './components/Count'
   import 'antd/dist/antd.css'
@@ -178,7 +178,7 @@ ReactRedux 是在 Redux 的基础上进行了一层更加便利 React 调用 Red
   
   ```
 
-  ```react
+  ```jsx
   // Counter
   import { Form, Button, InputNumber, Select } from 'antd'
   import { useState } from 'react'
@@ -270,7 +270,7 @@ ReactRedux 是在 Redux 的基础上进行了一层更加便利 React 调用 Red
   
   ```
 
-  ```react
+  ```jsx
   // reducer.js
   const initCountValue = 0
   const counterReducer = (preState, action) => {
@@ -297,7 +297,7 @@ ReactRedux 是在 Redux 的基础上进行了一层更加便利 React 调用 Red
   
   ```
 
-  ```react
+  ```jsx
   // Counter.js
   import { Form, Button, InputNumber, Select } from 'antd'
   // import { useState } from 'react'
@@ -380,7 +380,7 @@ ReactRedux 是在 Redux 的基础上进行了一层更加便利 React 调用 Red
   
   ```
 
-  ```react
+  ```jsx
   // index.js
   import React from 'react'
   import ReactDOM from 'react-dom'
