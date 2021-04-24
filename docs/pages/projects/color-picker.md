@@ -1,4 +1,8 @@
-基于 Vue 的颜色选择器
+---
+sidebarDeep: 2
+---
+
+# 基于 Vue 的颜色选择器
 
 > 背景：在开发后台系统的过程中，需要用到颜色选择器组件，而这个项目是基于没有`颜色选择器组件`的[AntDesignVue](https://2x.antdv.com/components/overview/)的 UI 框架进行开发的， 所以参照了[View UI](https://www.iviewui.com/components/color-picker)的颜色选择器组件的源码进行了一个基于 Vue 框架的颜色选择器组件的封装， 让这个颜色选择组件脱离框架的限制。
 
@@ -353,43 +357,43 @@
         .....
       </div>
     </template>
-    
+
     <script>
     import click from '../utils/utils'
-    
+
     export default {
       name: 'color-picker',
-    
+
       // 自定义 v-click命令
       directives: { click },
-    
+
       props: {
         // 当前选中的颜色值
         value: {
           type: [String, undefined],
         },
-    
+
         // 默认颜色
         defaultColor: {
           type: String,
           default: '#f5f5f5',
         },
-    
+
         btnStyle: {
           type: [String, Object],
         },
       },
-    
+
       data() {
         return {
           // 颜色面板显隐
           visible: false,
-    
+
           // 自定入口按钮样式
           btnStyle: {},
         }
       },
-    
+
       computed: {
         // 展示当前选中的颜色值
         showColor() {
@@ -397,12 +401,12 @@
           return this.defaultColor
         },
       },
-    
+
       methods: {
         openPanel() {
           this.visible = !this.visible
         },
-    
+
         closePanel() {
           this.visible = false
         },
@@ -413,7 +417,7 @@
 
   - 接下来编写颜色面板的具体逻辑，首先给`主题颜色`以及`标准颜色`设置一些常用的默认值，并渲染出来；编写`gradientValue`函数计算渐变过渡颜色，`hexToRgb`将 hex 格式的颜色值转换为 rgb 值，`rgbToHex`函数将 rgb 格式的颜色值转换为 hex 值，`parseColor`格式化 hex 颜色值。
 
-  - 接下来实现点击选中方块的颜色值并将选中的值返回给父元素，以及`更多颜色`根据不同的格式值来获取用户输入的颜色值，这里使用的是HTML5新增的对象—[Color对象](https://www.w3school.com.cn/jsref/dom_obj_color.asp)。
+  - 接下来实现点击选中方块的颜色值并将选中的值返回给父元素，以及`更多颜色`根据不同的格式值来获取用户输入的颜色值，这里使用的是 HTML5 新增的对象—[Color 对象](https://www.w3school.com.cn/jsref/dom_obj_color.asp)。
 
     ![loading error](../../assets/images/project/color-panel.gif)
 
@@ -424,7 +428,7 @@
         class="zs-color-picker"
         ref="colorPicker"
         v-click="closePanel"
-        @click="e => e.stopPropagation()"
+        @click="(e) => e.stopPropagation()"
       >
         <!-- 颜色选择入口 -->
         <div
@@ -432,11 +436,19 @@
           :style="{ backgroundColor: showColor, ...btnStyle }"
           @click="openPanel"
         />
-    
+
         <!-- 颜色选择面板 -->
-        <div :class="['zs-color-picker-panel', visible ? 'zs-color-picker-panel__visible' : '']">
+        <div
+          :class="[
+            'zs-color-picker-panel',
+            visible ? 'zs-color-picker-panel__visible' : '',
+          ]"
+        >
           <div class="panel-header">
-            <div class="color-view" :style="`background-color: ${showPanelColor}`" />
+            <div
+              class="color-view"
+              :style="`background-color: ${showPanelColor}`"
+            />
             <div
               class="default-color"
               @mouseover="hoveColor = defaultColor"
@@ -446,7 +458,7 @@
               默认颜色
             </div>
           </div>
-    
+
           <div class="panel-main">
             <h3>主题颜色</h3>
             <ul class="theme-color">
@@ -473,7 +485,7 @@
                 </ul>
               </li>
             </ul>
-    
+
             <h3>标准颜色</h3>
             <ul class="theme-color">
               <li
@@ -485,9 +497,11 @@
                 @click="updataValue(color)"
               />
             </ul>
-    
-            <h3 @click="triggerHtml5Color" style="cursor: pointer;">更多颜色...</h3>
-    
+
+            <h3 @click="triggerHtml5Color" style="cursor: pointer;">
+              更多颜色...
+            </h3>
+
             <!-- HTML DOM Color 对象 -->
             <input
               type="color"
@@ -499,45 +513,45 @@
         </div>
       </div>
     </template>
-    
+
     <script>
     import click from '../utils/utils'
-    
+
     export default {
       name: 'color-picker',
-    
+
       // 自定义 v-click命令
       directives: { click },
-    
+
       props: {
         // 当前选中的颜色值
         value: {
-          type: [String, undefined]
+          type: [String, undefined],
         },
-    
+
         // 默认颜色
         defaultColor: {
           type: String,
-          default: '#000'
+          default: '#000',
         },
-    
+
         // 入口按钮样式
         btnStyle: {
-          type: [String, Object]
-        }
+          type: [String, Object],
+        },
       },
-    
+
       data() {
         return {
           // 颜色面板显隐
           visible: false,
-    
+
           // 鼠标经过的颜色块
           hoveColor: null,
-    
+
           // 用户输入的颜色值
           html5Color: this.value,
-    
+
           // 主题颜色
           tColor: [
             '#000000',
@@ -549,9 +563,9 @@
             '#9aba60',
             '#8165a0',
             '#47acc5',
-            '#f9974c'
+            '#f9974c',
           ],
-    
+
           // 颜色面板
           colorConfig: [
             ['#7f7f7f', '#f2f2f2'],
@@ -563,9 +577,9 @@
             ['#4d602c', '#eaf1de'],
             ['#3f3150', '#e6e0ec'],
             ['#1e5867', '#d9eef3'],
-            ['#99490f', '#fee9da']
+            ['#99490f', '#fee9da'],
           ],
-    
+
           // 标准颜色
           bColor: [
             '#c21401',
@@ -577,11 +591,11 @@
             '#00afee',
             '#0071be',
             '#00215f',
-            '#72349d'
-          ]
+            '#72349d',
+          ],
         }
       },
-    
+
       computed: {
         // 显示面板颜色
         showPanelColor() {
@@ -591,13 +605,13 @@
             return this.showColor
           }
         },
-    
+
         // 展示当前选中的颜色值
         showColor() {
           if (this.value) return this.value
           return this.defaultColor
         },
-    
+
         // 颜色面板
         colorPanel() {
           const colorArr = []
@@ -605,45 +619,45 @@
             colorArr.push(this.gradientValue(color[1], color[0], 5))
           }
           return colorArr
-        }
+        },
       },
-    
+
       methods: {
         openPanel() {
           this.visible = !this.visible
         },
-    
+
         closePanel() {
           this.visible = false
         },
-    
+
         triggerHtml5Color() {
           this.$refs.html5Color.click()
         },
-    
+
         // 设置默认颜色
         handleDefaultColor() {
           this.updataValue(this.defaultColor)
         },
-    
+
         // 更新组件的值 value
         updataValue(value) {
           this.$emit('input', value)
           this.$emit('change', value)
           this.visible = false
         },
-    
+
         // 计算渐变过渡颜色
         gradientValue(startColor, endColor, step) {
           // 讲 hex 转换为 rgb
           const sColor = this.hexToRgb(startColor)
           const eColor = this.hexToRgb(endColor)
-    
+
           // 计算R\G\B每一步的差值
           const rStep = (eColor[0] - sColor[0]) / step
           const gStep = (eColor[1] - sColor[1]) / step
           const bStep = (eColor[2] - sColor[2]) / step
-    
+
           const gradientColorArr = []
           // 计算每一步的hex值
           for (let i = 0; i < step; i++) {
@@ -657,13 +671,13 @@
           }
           return gradientColorArr
         },
-    
+
         // RGB 颜色 转 HEX 颜色
         rgbToHex(r, g, b) {
           const hex = ((r << 16) | (g << 8) | b).toString(16)
           return '#' + new Array(Math.abs(hex.length - 7)).join('0') + hex
         },
-    
+
         // HEX 转 RGB 颜色
         hexToRgb(hex) {
           hex = this.parseColor(hex)
@@ -673,19 +687,25 @@
           }
           return rgb
         },
-    
+
         // 格式化 hex 颜色值
         parseColor(hexStr) {
           if (hexStr.length === 4) {
-            hexStr = '#' + hexStr[1] + hexStr[1] + hexStr[2] + hexStr[2] + hexStr[3] + hexStr[3]
+            hexStr =
+              '#' +
+              hexStr[1] +
+              hexStr[1] +
+              hexStr[2] +
+              hexStr[2] +
+              hexStr[3] +
+              hexStr[3]
           } else {
             return hexStr
           }
-        }
-      }
+        },
+      },
     }
     </script>
-    
     ```
 
     ```vue
@@ -695,10 +715,10 @@
         <ColorPicker v-model="color" />
       </div>
     </template>
-    
+
     <script>
     import ColorPicker from './components/ColorPicker'
-    
+
     export default {
       components: {
         ColorPicker,
@@ -710,11 +730,9 @@
     </script>
     ```
 
-    
 
     ### 总结
 
     本质就是基于css绝对定位布局进行一个颜色预设值的选择，再提供一个input 框调用HTML5的`Color对象`的接口获取用户的颜色输入值，在返回给组件。
 
-    完整项目地址： 
-
+    [完整项目地址](https://github.com/ZhengMaster2020/material-depot/tree/master/projects/color-picker)
