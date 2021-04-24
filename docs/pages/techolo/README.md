@@ -15,7 +15,7 @@ sidebarDeep: 2
 
 :::
 
-![img loading error](../../assets/images/bg.jpg)
+![img loading error](../../assets/images/techolo/redux.gif)
 
 ## 什么是 redux
 
@@ -98,6 +98,8 @@ ReactRedux 是在 Redux 的基础上进行了一层更加便利 React 调用 Red
   - 一个组件需要改变另一个组件的状态
 
 ## 使用 Redux 技术栈进行 Demo 实战
+
+  <img alt="img loading error" title="counter demo" src="../../assets/images/techolo/counter.gif" width="100%" height="auto" />
 
 - 第一步：使用 yarn 和 create-react-app 创建一个 react 应用，并运行项目
 

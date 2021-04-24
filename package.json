@@ -8,5 +8,9 @@
     "dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh"
+  },
+  "dependencies": {
+    "less": "^4.1.1",
+    "less-loader": "^8.1.1"
   }
 }

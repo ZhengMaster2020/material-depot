@@ -55,6 +55,13 @@ module.exports = {
           children: ['', 'network'],
         },
       ],
+      '/pages/projects/': [
+        {
+          title: '常用组件以及练手项目',
+          collapsable: false,
+          children: ['color-picker'],
+        },
+      ],
     },
   },
 }
