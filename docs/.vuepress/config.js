@@ -8,8 +8,7 @@
  */
 module.exports = {
   title: '资料库',
-  description:
-    '这是一个关于书籍的资料库， 前后端以及各种领域文学的知识、资料分享库',
+  description: '这是一个关于书籍的资料库， 前后端以及各种领域文学的知识、资料分享库',
   base: '/',
   head: [['link', { rel: 'icon', href: '../assets/images/book-pro.png' }]],
   plugins: ['@vuepress/blog', '@vuepress/back-to-top'],
@@ -48,7 +47,7 @@ module.exports = {
           children: ['', 'network', 'htmlcss', 'js', 'engineering', 'frame'],
         },
       ],
-      '/pages/tematerial/': [
+      '/pages/material/': [
         {
           title: '前端面试知识点',
           collapsable: false,
